@@ -41,7 +41,7 @@ plusBtn.addEventListener("click",()=>{
 })
 minusBtn.addEventListener("click",()=>{
     quantity--
-    if(quantity>=0 || quantity<=50){
+    if(quantity>=0 ){
     quantityText.textContent=quantity
     }
 })
